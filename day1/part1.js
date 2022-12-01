@@ -10,6 +10,7 @@ input.forEach(calories => {
         sum += calories;
     }
 });
+totals.push(sum);
 
 totals = totals.sort((a, b) => {return b - a });
 console.log(totals[0]);
